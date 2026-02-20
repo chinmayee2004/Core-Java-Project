@@ -1,0 +1,39 @@
+    ARTIFY GALLERY JAVA PROJECT SYNOPSIS
+
+Project Title: 
+Artify Gallery – Console-Based Java CRUD MVC Application
+
+Objective: 
+The project demonstrates how to implement CRUD (Create, Read, Update, Delete) operations in a structured Java application using the MVC (Model–View–Controller) pattern. It simulates an art gallery management system where users can manage artworks, artists, and exhibitions through a simple console interface.
+
+Scope:
+•	Manage records of artworks (id, title, category, description).
+•	Maintain artist details (name, id, bio).
+•	Organize exhibitions (theme, date, id, name).
+•	Provide CRUD functionality for each module via console menus.
+•	No database layer — data is stored in memory using Java collections (e.g., ArrayList).
+
+Architecture (MVC):
+•	Model: Plain Old Java Objects representing entities (Artwork, Artist, Exhibition).
+•	View: Console menus and text-based input/output for user interaction.
+•	Controller: Handles user requests, invokes model operations, and updates the view.
+•	
+Features:
+1.	Artwork Management – Add Artwork, List Artwork, Update Artwork, Delete Artwork.
+2.	Artist Management –Add Artist, List Artist, Update Artist, Delete Artist.
+3.	Exhibition Management – Add exhibitions, List exhibition, update exhibition, delete exhibitions.
+
+Technology Stack:
+•	Language: Java
+•	Architecture: MVC pattern
+•	Tools: Eclipse 
+•	Version Control:GitHub
+
+Outcome: 
+The project provides a practical demonstration of CRUD operations in Java using MVC principles 
+without database complexity. It highlights modular design, separation of concerns, and user 
+interaction through a console interface.
+
+
+
+
